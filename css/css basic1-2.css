@@ -1,0 +1,40 @@
+.Texto1{
+    font-family: 'Roboto', sans-serif;
+
+}
+.Texto2{
+    font-family: 'Montserrat', sans-serif;
+}
+.bordes-redondeados {
+ border-radius: 20px;
+}
+.bordes-redondeados2 {
+    border-radius: 50px;
+}
+#contenedor-principal {
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.rectangulo {
+    padding: 5px;
+    margin: 5px;
+
+}
+.px{
+    background-color: crimson;
+    width: 200px;
+}
+.vw{
+    background-color: darkmagenta;
+    width: 20vw;
+}
+.em{
+    background-color: green;
+    width: 15em;
+    font-size: 1.5em;
+}
+

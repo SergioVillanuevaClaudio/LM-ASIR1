@@ -1,0 +1,249 @@
+.Titulo1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    border-bottom-style:inset;
+}
+.texto1{
+    text-align: center;
+
+
+}
+.Titulos{
+    text-align: center;
+    text-decoration: underline;
+}
+.transicion1{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s;
+    text-align: center;
+
+
+}
+.transicion1:hover{
+    width: 300px;
+}
+.transicion2{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s, height 2s;
+    text-align: center;
+
+
+}
+.transicion2:hover{
+    width: 300px;
+    height: 300px;
+}
+.transicion2{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s, height 2s;
+    text-align: center;
+
+
+}
+.linear{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s;
+    transition-timing-function: linear;
+    text-align: center;
+
+
+
+
+}
+.linear:hover{
+    width: 300px;
+}
+.ease{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s;
+    transition-timing-function:ease;  
+    text-align: center;
+
+
+}
+.ease:hover{
+    width: 300px;
+}
+.ease-in{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s;
+    transition-timing-function:ease-in;
+    text-align: center;
+
+
+}
+.ease-in:hover{
+    width: 300px;
+}
+.ease-out{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s;
+    transition-timing-function:ease-out;
+    text-align: center;
+
+
+}
+.ease-out:hover{
+    width: 300px;
+}
+
+
+.ease-in-out{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s;
+    transition-timing-function:ease-in-out;
+    text-align: center;
+
+
+}
+.ease-in-out:hover{
+    width: 300px;
+ }
+ .transicion3{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s;
+    transition-timing-function:ease;
+    transition-delay: 1s;
+    text-align: center;
+
+
+ }
+ .transicion3:hover{
+    width: 300px;
+ }
+ .transicion4{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition: width 2s, height 2s, transform 2s;
+    text-align: center;
+
+
+ }
+ .transicion4:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+ }
+ .ejemplo1{
+    width: 100px;
+    height: 100px;
+    background: rgb(167, 76, 76);
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    text-align: center;
+
+
+ }
+ .ejemplo1:hover{
+    width: 300px;
+ }
+
+
+ .translate{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(167, 76, 76);
+    border: 1px solid black;
+    transform: translate(10px,20px);
+ }
+ .rotar{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(167, 76, 76);
+    border: 1px solid black;
+  }
+ .rotar:hover{
+    transform: rotate(20deg);
+ }
+ .scale{
+  width: 125px;
+  height: 75px;
+  background-color: rgb(167, 76, 76);
+  border: 1px solid black;
+  transform: scale(0.5, 0.5);
+ }
+ .scalex{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(167, 76, 76);
+    border: 1px solid black;
+    transform: scaleX(2);
+ }
+ .scaleY{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(167, 76, 76)yellow;
+    border: 1px solid black;
+    transform: scaleY(3);
+ }
+ .skewX{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(167, 76, 76);
+    border: 1px solid black;
+ }
+ .skewX:hover{
+    transform: skewX(20deg);
+ }
+ .skewY{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(167, 76, 76);
+    border: 1px solid black;
+ }
+ .skewY:hover{
+    transform: skewY(20deg);
+ }
+.sesgado{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(167, 76, 76);
+    border: 1px solid black;
+}
+.sesgado:hover{
+    transform: skew(20deg,10deg);
+
+
+}
+.matrix{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(167, 76, 76);
+    border: 1px solid black;
+}
+.matrix:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+.matrix2{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(167, 76, 76);
+    border: 1px solid black;
+}
+.matrix2:hover { transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
+   

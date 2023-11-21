@@ -1,0 +1,39 @@
+/* EJEMPLO 1 */
+
+p {
+    text-align: center;
+    color: red;
+  } 
+  #ejemplo1 {
+    text-align: center;
+    color: red;
+  }
+  /* EJEMPLO 2 */
+  .center1 {
+    text-align: center;
+    color: red;
+  }
+  /* EJEMPLO 3 */
+  p.center2 {
+    text-align: center;
+    color: red;
+  }
+  /* EJEMPLO 4 */
+  p.center {
+    text-align: center;
+    color: red;
+  }
+  
+  p.large {
+    font-size: 300%;
+  }
+    /* EJEMPLO 5*/
+  * {
+    text-align: center;
+    color: blue;
+  }
+    /* EJEMPLO 6*/
+  h3, h4 {
+    text-align: center;
+    color: red;
+  }
