@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Iframe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+        }
+
+        header {
+            background-image: url(../img/fondo2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 5vw;
+            color: rgb(255, 255, 255);
+        }
+
+
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px; 
+            background: #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            width: 70%;
+            padding:20px;
+            background-color: #f1f1f1;
+            height: 300px; 
+
+        }
+        iframe {
+            width: 90%;
+        }
+
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        footer {
+            background-color: rgb(109, 209, 226);
+            padding: 40px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+
+        @media (max-width: 800px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+        </style>
+    </head>
+
+    <body>
+        <h2>IFRAME, LAYOUT Y RESPONSIVE </h2>
+
+        <p>Página creada en clase de LM </p>
+
+        <header>
+            <h2>Cabeceras</h2>
+        </header>
+
+        <h3>Veamos diferentes clases creadas en LM</h3>
+
+        <section>
+        <nav>
+            <ul>
+                <li><a href="../HTML/09-10-2023.html" target="iframe_a">Pagina con elementos responsiva</a></li>
+                <br>
+                <li><a href="../HTML/02-10-2023.html" target="iframe_a">Página con meta</a></li>
+                <br>
+                <li><a href="../HTML/css grid.html grid.html" target="iframe_a">Css grid</a></li>
+                <br> 
+            </ul>
+        </nav>
+        
+        <article>
+            <iframe src="../HTML/iframlink2.html" name="iframe_a" title="09-10-2023" width="500px" height="250px"></iframe>
+        
+        </article>
+        </section>
+        <br>
+        <h3>Veamos diferentes de youtube</h3>
+        <section>
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/embed/uQ5U4RqY8g0" target="iframe_b"></iframe>Ibai</a></li>
+                <br>
+                <li><a href="https://www.youtube.com/embed/3ryID_SwU5E" target="iframe_b">Mister beast</a></li>
+                <br>
+                <li><a href="https://www.youtube.com/embed/pPNV3nX7iVs"target="iframe_b">Messi</a></li>
+                <br>
+            </ul>
+        </nav>
+        <article>
+            <iframe src="../HTML/Iframelink.html" name="iframe_b" title="09-10-2023" width="500px" height="250px"></iframe>
+        </article>
+        </section>
+        <br>
+        <footer>
+            <p>Sergio Villanueva Cladio</p>
+        </footer>
+
+    </body>
+</html>

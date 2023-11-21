@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           .Form{
+            padding-left: 20px;
+           }
+        </style>  
+    </head>
+    <body>
+        <h1>Ejercicio 1</h1>
+            <div class="Form">
+                <form action="/action_page.php" method="post">
+                    <label for="username">Usuario:</label><br>
+                    <input type="text" id="username" name="username">
+                    <br><br>
+                    <label for="Pasajes">Tipo de pasaje:</label>
+                    <select id="Pasajes" name="Pasajes">
+                    <option value="VIP">Vip</option>
+                    <option value="Primera">Primera</option>
+                    <option value="Segunda" selected>Segunda</option>
+                    <option value="Turista">Turista</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit" post>
+                </form>
+            </div>
+        <h1>Ejercicio 2</h1>
+            <div class="Form">    
+                <form action="/action_page.php" method="post">
+                    <label for="fname">Artículo:</label>
+                    <input type="text" id="fname" placeholder="Artículo">
+                    <p> Forma de entrega:</p>
+                      <input type="radio" id="Domicilio" name="envio_domicilio" value="HTML">
+                      <label for="Domicilio">Domicilio</label><br>
+                      <input type="radio" id="Tienda" name="Recogida_tienda" value="CSS">
+                      <label for="Tienda">Tienda</label><br>
+                    <br>
+                    <input type="submit" value="Submit" post>
+                </form>
+            </div>
+        <h1>Ejercicio 3 </h1>
+            <div class="Form">    
+                <form action="/action_page.php" method="post">
+                    <label for="fname">Número de matrícula</label>
+                    <input type="text" id="fname" placeholder="Matrícula">
+                    <br>
+                    <p>Materias</p>
+                    <input type="checkbox" id="Matemáticas" name="Matemáticas" value="Matemáticas">
+                    <label for="Matemáticas"> Matemáticas</label><br>
+                    <input type="checkbox" id="Algoritmia" name="Algoritmia" value="Algoritmia">
+                    <label for="Algoritmia"> Algoritmia</label><br>
+                    <input type="checkbox" id="Sistemas" name="Sistemas" value="Sistemas">
+                    <label for="Sistemas"> Sistemas</label><br>
+                    <input type="checkbox" id="Robótica" name="Robótica" value="Robótica">
+                    <label for="Robótica"> Robótica</label><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        <h1>Ejercicio 4</h1>
+            <div class="Form">    
+                <form action="/action_page.php" method="post">
+                    <label for="username">Nombre</label><br>
+                    <input type="text" id="username" name="nombre"><br>
+                    <label for="username">E-mail</label><br>
+                    <input type="text" id="username" name="mail válido"><br>
+                    <p>Escriba su mensaje</p>
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>   
+        <h1>Ejercicio 5</h1>
+            <div class="Form">    
+                <form action="/action_page.php" method="post"> <form>
+                    <label for="username">Nombre</label><br>
+                    <input type="text" id="username" name="nombre"><br>
+                    <label for="username">E-mail</label><br>
+                    <input type="text" id="username" name="mail válido" placeholder="personas"><br>
+                    <label for="Fecha">Fecha de llegada:</label><br>
+                    <input type="date" id="Fecha" name="Fecha_llegada"><br>
+                    <label for="Fecha">Fecha de Salida:</label><br>
+                    <input type="date" id="Fecha" name="Fecha_Salida"><br><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        <h1>Ejercicio 6</h1>
+            <div class="Form"> 
+                <form action="/action_page.php" method="post">
+                    <label for="Alias">Alias</label><br>
+                    <input type="text" id="Alias" name="alias" placeholder="alias"><br>
+                    <label for="username">E-mail</label><br>
+                    <input type="text" id="username" name="mail válido" placeholder="e-mail"><br>
+                    <label for="Teléfono">Teléfono</label><br>
+                    <input type="tel" value="+34" pattern="+34 [0-9]{3}-[0-9]{3}-[0-9]{3}">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        <h1>Ejercicio 7</h1>
+            <div class="Form">
+                <form action="/action_page.php" method="post">
+                    <label for="Pasajes">Tipo de pasaje:</label>
+                        <select id="Pasajes" name="Pasajes">
+                        <option value="Naranjas">Naranjas</option>
+                        <option value="Manzanas">Manzanas</option            >
+                        <option value="Mandarinas" selected>Mandarinas</option>
+                        <option value="Peras">Peras</option><br><br>
+                        </select><br>
+                    <label for="Cantidad">Cantidad</label>
+                    <input type="text" id="username" name="nombre" placeholder="numero unidad" pattern="(0-9)+{kg|ud|gr}"><br>
+                    <br>
+                    <input type="submit" value="Submit" post>
+                </form>
+            </div> 
+        <h1>Ejercicio 8</h1>
+            <div class="Form"> 
+                <form action="/action_page.php" method="get">
+                    <label for="quantity">Número de botellas (en lotes de tres):</label><br>
+                    <input type="number" id="quantity" name="quantity" min="3" max="" step="3"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        <h1>Ejercicio 9</h1>
+            <div class="Form"> 
+                <form action="/action_page.php" method="post">
+                    <label for="Alias">Alias</label>
+                    <input type="text" id="Alias" name="alias" placeholder="alias"><br>
+                    <label for="username">E-mail</label>
+                    <input type="text" id="username" name="mail válido" placeholder="e-mail"><br>
+                    <label for="Teléfono">Teléfono</label>
+                    <input type="tel" value="+34" pattern="+34 [0-9]{3}-[0-9]{3}-[0-9]{3}">
+                    <fieldset>
+                        <legend>Lenguajes que conoce</legend>
+                        <input type='checkbox' tabindex='1'
+                                name='edad' value='Javascript' > Javascript<br>
+                        <input type='checkbox' tabindex='1'
+                                name='edad' value='PHP' >PHP <br>
+                        <input type='checkbox' tabindex='1'
+                                name='edad' value='60-79' > NodeJS<br>
+                        <input type='checkbox' tabindex='1'
+                                name='edad' value='60-79' >Python
+                    </fieldset>
+                    <p>Nivel de inglés</p>
+                      <input type="radio" id="Bajo" name="Bajo" value="HTML">
+                      <label for="Bajo">Bajo</label><br>
+                      <input type="radio" id="Medio" name="Medio" value="CSS">
+                      <label for="Medio">Medio</label><br>
+                      <input type="radio" id="Alto" name="Alto" value="CSS">
+                      <label for="Alto">Alto</label><br>
+                    <input type="submit" value="Submit" post>
+                </form> 
+            </div>          
+    </body>
+</html>
